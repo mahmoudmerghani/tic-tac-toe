@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <dialog>
+        <form method="dialog">
+            <div>
+                <label for="first-player">Player one name: </label>
+                <input type="text" id="first-player" name="first-player" required>
+            </div>
+            <div>
+                <label for="second-player">Player two name: </label>
+                <input type="text" id="second-player" name="second-player" required>
+            </div>
+            <div>
+                <button>Start Game</button>
+            </div>
+        </form>
+    </dialog>
+    <div class="container">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+
+    <div class="play-again">
+        <div class="winner"></div>
+        <button>Play Again</button>
+    </div>
+</body>
+</html>
